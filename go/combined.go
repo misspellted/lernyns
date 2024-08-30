@@ -98,9 +98,6 @@ func main() {
 
   fmt.Printf("Welcome to %v!\n", e.name)
 
-  // James
-  // jdgj@me.com
-  // 20
   a, errs := register_attendee()
 
   if len(errs) > 0 {
